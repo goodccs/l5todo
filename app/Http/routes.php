@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    #return view('welcome');
+    return redirect('/projects');
 });
 
 // Provide controller methods with object instead of ID
